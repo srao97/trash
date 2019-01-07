@@ -1,0 +1,15 @@
+<apex:page StandardController="Account" >
+  <apex:form >
+      <apex:pageBlock mode="edit">
+      <apex:pageMessages />
+          <apex:pageBlockSection >
+              <apex:inputfield value="{!account.name}"/>
+              <apex:inputfield value="{!account.phone}"/>
+          </apex:pageBlockSection>
+              <apex:pageBlockButtons location="bottom">
+                  <apex:commandButton value="Save" action="{!Save}"/>
+      
+              </apex:pageBlockButtons>
+          </apex:pageBlock>
+  </apex:form>
+</apex:page>

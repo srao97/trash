@@ -1,0 +1,11 @@
+<apex:page standardController="Account" sidebar="false" tabStyle="account" recordSetVar="accounts" >
+    <apex:form >
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!accounts}" var="acc">
+            <apex:column value="{!acc.name}" />
+        </apex:pageBlockTable>
+                <apex:commandButton action="{!Previous}" value="Prev"/>
+                <apex:commandButton action="{!Next}" value="Next"/> 
+            </apex:pageBlock>
+        </apex:form>
+</apex:page>

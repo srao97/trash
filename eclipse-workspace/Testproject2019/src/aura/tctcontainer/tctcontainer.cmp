@@ -1,0 +1,19 @@
+<aura:component >
+    <div class="slds-grid slds-grid slds-grid_vertical-align-center">
+  		<div class="slds-col">
+            <div class="slds-m-around_medium">
+            <div class="slds-form-element">
+  			<label class="slds-form-element__label" for="task-input">Task Name</label>
+  			<div class="slds-form-element__control">
+    		<input id="task-input" class="slds-input" placeholder="Describe your task" />
+  			</div>
+                </div>
+		</div>
+    </div>
+        <div class="slds-col">
+            <div class="slds-m-around_medium slds-p-top_medium">
+        <c:tcbutton/>
+                </div>
+        </div>
+    </div>
+ </aura:component>

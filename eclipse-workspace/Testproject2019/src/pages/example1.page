@@ -1,0 +1,12 @@
+<apex:page standardController="Account" >
+ <apex:form >
+ 
+ <apex:inputField value="{!account.name}"/><br/>
+ Phone <apex:inputField value="{!account.phone}"/>
+ <apex:commandButton action="{!save}" value="Ok" />
+ 
+ 
+ </apex:form>
+ 
+ 
+</apex:page>

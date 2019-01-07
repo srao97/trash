@@ -1,0 +1,13 @@
+<aura:component >
+    <aura:attribute name="taskname" type="string"/>
+	<tr>
+      <td data-label="Task">
+        <div class="slds-truncate" title="{!v.taskname}">
+            <ui:outputtext value="{!v.taskname}"/>
+        </div>
+      </td>
+      <td data-label="Action">
+          <c:todeletebutton/>
+      </td>
+   </tr>
+</aura:component>

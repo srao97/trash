@@ -1,0 +1,13 @@
+<apex:page sidebar="false" standardController="Account" >
+     <!--My first VF Page-->
+      <apex:form >
+                <apex:pageBlock title="Welcome to salesforce">
+                      <apex:pageBlockSection >
+                          <apex:pageBlockTable value="{!account.contacts}" var="item">
+                              <apex:column value="{!item.name}"/>
+                              <apex:column value="{!item.phone}"/>
+                          </apex:pageBlockTable>
+                      </apex:pageBlockSection>
+               </apex:pageBlock>
+      </apex:form>
+</apex:page>

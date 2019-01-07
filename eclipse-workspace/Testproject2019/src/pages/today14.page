@@ -1,0 +1,15 @@
+<apex:page controller="c5" >
+  <apex:form >
+      <apex:pageBlock >
+          <apex:pageBlockSection >
+          <!--Type the Name of Account Here-->
+          <apex:inputField value="{!a.Name}"/>
+          <apex:inputField value="{!a.Phone}"/>
+          
+          </apex:pageBlockSection>    
+          <apex:pageBlockButtons >
+          <apex:commandButton action="{!save}" value="Save"/>
+          </apex:pageBlockButtons>
+      </apex:pageBlock>
+  </apex:form>
+</apex:page>

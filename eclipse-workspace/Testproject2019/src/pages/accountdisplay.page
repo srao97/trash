@@ -1,0 +1,8 @@
+<apex:page standardController="Account" sidebar="false" >
+Hello {!$User.FirstName}<br/>
+You are viewing {!Account.Name}
+Your phone number is {!Account.Phone}
+
+
+  
+</apex:page>

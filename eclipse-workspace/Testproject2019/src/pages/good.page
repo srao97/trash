@@ -1,0 +1,12 @@
+<apex:page standardController="case" >
+  <!-- Begin Default Content REMOVE THIS -->
+  <apex:form >
+  <apex:outputLink value="{!URLFOR($Action.Case.View, case.Id)}"  >
+  </apex:outputLink>
+  
+  
+  </apex:form>
+  <h1>Congratulations</h1>
+  This is your new Page: good
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

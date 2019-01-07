@@ -1,0 +1,8 @@
+<aura:component >
+	<h1> Hello Rao</h1>
+    <div>
+ 		<div class="red"> I am Red</div> 
+        <div class="blue"> I am Blue</div>
+        <div class="green"> I am Green</div>
+    </div>
+</aura:component>

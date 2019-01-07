@@ -1,0 +1,8 @@
+<apex:page controller="mycontroller">
+    <apex:form >
+        <apex:dataList value="{!myaccounts}" var="mya">
+            <apex:outputText value="{!mya.name}">
+            </apex:outputText>
+       </apex:dataList>
+</apex:form>  
+</apex:page>
